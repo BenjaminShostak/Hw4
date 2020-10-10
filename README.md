@@ -24,7 +24,10 @@ Differnt colors for the correct answers. and red for the wrong answers.
 I need different questions!
 maybe four or five questions-right answers and wrong-answers
 
-so.. I need IF/Else statments in JS to cycle the questions.
+
+
+
+so.. I need IF/Else statments in JS jQuery to cycle the questions.
 
 probably I need a header...
 
