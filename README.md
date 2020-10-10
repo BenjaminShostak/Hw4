@@ -43,3 +43,27 @@ I will need eventListeners.on("click")
 lots of DIVs
 
 use Semantic HTML where available-header,-footer, Section, 
+
+
+
+
+/////////////////////////other notes of new concepts i learned///////////////////////////////////////
+
+
+
+q::before { 
+  content: "«";
+  color: blue;
+}
+
+q::after { 
+  content: "»";
+  color: red;
+}
+
+css
+The variable name must begin with two dashes (--) and is case sensitive!
+
+The syntax of the var() function is as follows:
+
+var(custom-name, value)
