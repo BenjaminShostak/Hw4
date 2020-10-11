@@ -63,7 +63,7 @@ q::after {
 
 css
 The variable name must begin with two dashes (--) and is case sensitive!
-
+(diddnt quite work for me..)
 The syntax of the var() function is as follows:
 
 var(custom-name, value)
