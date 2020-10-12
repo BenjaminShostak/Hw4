@@ -20,11 +20,13 @@ body.neutral {
 }
 
 .btn {
-    background-color: :hsl(var(--hue));
+    background-color:goldenrod;
+    opacity: 85%;
+    border: 1px goldenrod, 100%, 50%;
     border-radius: 10px;
-    font-weight: bolder;
+    font-family: 'Permanent Marker', cursive;
     height: 40px;
-    width: 80px;
+    width: auto;
     display: grid;
     grid-template-columns: repeat(2,auto);
     gap: 10px;
@@ -46,18 +48,31 @@ body.neutral {
     width: 45%;
    
 }
-
-
-.start-btn-btn {
-    border-radius: 10px;
-    font-weight: bolder;
-    height: 40px;
+.start-btn-btn:hover {
+    background-color: chartreuse;
+    opacity: 70%;
 }
 
-.next-btn-btn {
+.start-btn-btn {
+    background-color:goldenrod;
+    border: 1px goldenrod, 100%, 50%;
     border-radius: 10px;
     font-weight: bolder;
     height: 40px;
+    width: 80px;
+}
+
+.next-btn-btn:hover {
+    background-color: chartreuse;
+    opacity: 70%;
+}
+.next-btn-btn {
+    background-color:goldenrod;
+    border: 1px goldenrod, 100%, 50%;
+    border-radius: 10px;
+    font-weight: bolder;
+    height: 40px;
+    width: 80px;
 
 }
 
@@ -72,12 +87,28 @@ body.neutral {
    background-color: teal;
 }
 
-.btn-grid {
-  
+.btn:hover {
+    background-color: chartreuse;
+    opacity: 70%;
 }
 
+.btn.correct {
+background-color: green;
+color: yellow;
+}
 
+.btn.wrong {
+    background-color: red;
+    color: black;
 
+}
+
+.controls {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    height: 300px;
+}
 
 
 
